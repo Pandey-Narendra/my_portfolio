@@ -21,6 +21,8 @@ const experiences = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Goldengate Technolabs',
+    duration: 'August 2022 - October 2023',
+    post: 'Web Developer',
     description: [
       `In my web development journey, I’ve gained extensive experience in React JS, Laravel, WordPress, MySQL and
       more. I’ve been deeply involved in developing, maintaining, and deploying websites for diverse clients. I prioritize
@@ -37,6 +39,8 @@ const experiences = [
   },
   {
     name: 'GEC - Dahod',
+    duration: 'January 2021 – May 2022',
+    post: 'Web Developer',
     description: [
       `During my final year project/internship, I had the opportunity to work on  the GEC Dahod website, concentrating on understanding its flow and developing dynamic modules while ensuring the maintenance of dependencies.`,
       `Used HTML, CSS, Bootstrap, JavaScript, and jQuery on the front end, harmonized with PHP and MySQL on the back end, following directives from the HOD and internal mentor.`,

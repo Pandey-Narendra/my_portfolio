@@ -5,8 +5,12 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
-
+    <h3>{project.name} 
+		{project.post && (
+			<p>{project.post}</p>
+		)}
+    </h3>
+    
     {project.description.map((desc, index) => (
         <p key={index} className='project__description'>
           {desc}
@@ -21,6 +25,10 @@ const ProjectContainer = ({ project }) => (
           </li>
         ))}
       </ul>
+    )}
+
+    {project.duration && (
+     <p>{project.duration}</p>
     )}
 
     {project.sourceCode && (
