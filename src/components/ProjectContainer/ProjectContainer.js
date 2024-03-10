@@ -6,11 +6,13 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-	{project.description.map((desc, index) => (
-      <li key={index} className='project__description'>
-        {desc}
-      </li>
+
+    {project.description.map((desc, index) => (
+        <p key={index} className='project__description'>
+          {desc}
+        </p>
     ))}
+
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (

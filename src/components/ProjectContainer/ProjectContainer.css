@@ -1,6 +1,6 @@
 .project {
   padding: 2em;
-  margin: 0 auto;
+  margin: 2em;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
@@ -23,8 +23,8 @@
 
 .project__stack-item {
   margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
+  font-weight: 600;
+  font-size: 0.9rem;
   color: var(--clr-fg-alt);
 }
 

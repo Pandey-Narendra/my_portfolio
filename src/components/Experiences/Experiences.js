@@ -1,17 +1,18 @@
 import uniqid from 'uniqid'
-import {experience } from '../../portfolio'
+import {experiences } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import '../Projects/Projects.css'
+import '../Experiences/Experiences.css'
 
 const Experiences = () => {
-  if (!experience.length) return null
+  if (!experiences.length) return null
 
   return (
-    <section id='projects' className='section projects'>
+    <section id='experiences' className='section projects'>
       <h2 className='section__title'>Experiences</h2>
 
-      <div className='projects__grid'>
-        {experience.map((work) => (
+      <div className='experiences__grid'>
+        {experiences.map((work) => (
           <ProjectContainer key={uniqid()} project={work} />
         ))}
       </div>
