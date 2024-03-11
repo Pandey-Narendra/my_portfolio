@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Narendra Pandey',
   role: 'Developer and a Programmer',
-  // description:'',
+  description:'looking for new opportunities and challenges.',
   resume: 'https://drive.google.com/file/d/1hM3Id01Jqk5AwaWKRq8fEhDPyb7uqPVJ/view?usp=drive_link',
   social: {
     linkedin: 'https://linkedin.com/in/pandey-narendra',
