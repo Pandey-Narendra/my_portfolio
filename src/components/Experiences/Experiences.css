@@ -1,7 +1,7 @@
 .experiences__grid {
   max-width: 1100px;
-  margin: 1em;
-  /* display: grid; */
+  margin: 0 auto;
+  display: block;
   grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
   grid-gap: 1em;
 }
