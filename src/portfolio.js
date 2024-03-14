@@ -39,7 +39,7 @@ const experiences = [
   },
   {
     name: 'GEC - Dahod',
-    duration: 'January 2021 – May 2022',
+    duration: 'January 2022 – May 2022',
     post: 'Web Developer',
     description: [
       `During my final year project/internship, I had the opportunity to work on  the GEC Dahod website, concentrating on understanding its flow and developing dynamic modules while ensuring the maintenance of dependencies.`,
