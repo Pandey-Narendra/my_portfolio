@@ -24,14 +24,10 @@ const experiences = [
     duration: 'August 2022 - October 2023',
     post: 'Web Developer',
     description: [
-      `In my web development journey, I’ve gained extensive experience in React JS, Laravel, WordPress, MySQL and
-      more. I’ve been deeply involved in developing, maintaining, and deploying websites for diverse clients. I prioritize
-      project clarity through client meetings, detailed documentation, and streamlined Jira management.`,
-
-      `Utilized essential features and libraries of React Js, Laravel, Wordpress and more, to craft
-      dynamic web applications. Additionally, integrating React.js within Laravel and Gatsby Js with WordPress
-      (Headless CMS). This integration involved utilizing essential React features and libraries to ensure versatile and
-      efficient development across diverse frameworks and platforms.`,
+      `I’ve gained extensive experience in React JS, Laravel, WordPress, MySQL and more.`,
+      `I’ve been deeply involved in developing, maintaining, and deploying websites for diverse clients.`,
+      `Prioritized project clearity by meeting clients, writing detailed docs, and keeping things organized in Jira.`,
+      `Additionally, integrating React.js within Laravel and Gatsby Js with WordPress (Headless CMS).`,
     ],
     stack: ['React','Laravel', 'PHP','Wordpress', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Git', 'Jira'],
     // sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',
@@ -42,8 +38,7 @@ const experiences = [
     duration: 'January 2022 – May 2022',
     post: 'Web Developer',
     description: [
-      `During my final year project/internship, I had the opportunity to work on  the GEC Dahod website, concentrating on understanding its flow and developing dynamic modules while ensuring the maintenance of dependencies.`,
-      `Used HTML, CSS, Bootstrap, JavaScript, and jQuery on the front end, harmonized with PHP and MySQL on the back end, following directives from the HOD and internal mentor.`,
+      `Worked on the GEC Dahod website, concentrating on understanding its flow and developing dynamic modules while ensuring the maintenance of dependencies by following directives from the HOD and internal mentor..`,
     ],
     stack: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'PHP', 'MySQL'],
     // sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',

@@ -12,9 +12,9 @@ const ProjectContainer = ({ project }) => (
     </h3>
     
     {project.description.map((desc, index) => (
-        <p key={index} className='project__description'>
+        <li key={index} className='project__description'>
           {desc}
-        </p>
+        </li>
     ))}
 
     {project.stack && (
