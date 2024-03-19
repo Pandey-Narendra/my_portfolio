@@ -72,11 +72,11 @@ const projects = [
   {
     name: 'Authentication System',
     description: [
-      `The application’s front-end is developed using React.js and Material UI and the back-end is built on Laravel‘s MVC
-      pattern, MySQL which allows register, login and more to manage their profiles through a user-friendly interface.`,
+      `The application’s front-end is developed using React.js and the back-end is built on Laravel‘s MVC
+      pattern, MySQL as a monolithic application which allows register, login and more to manage their profiles through a user-friendly interface.`,
     ],
-    stack: ['React Js', 'Laravel', 'Material UI', 'MySQL'],
-    sourceCode: 'https://github.com/Pandey-Narendra/ReactLaravelAuth',
+    stack: ['React Js', 'Laravel', 'Breeze', 'Inertia Js', 'MySQL'],
+    sourceCode: 'https://github.com/Pandey-Narendra/laravel_React_Inertia',
     // livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
   },
   {
