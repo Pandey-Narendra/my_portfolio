@@ -119,6 +119,7 @@ const skills = [
   'Wordpress',
   'MySQL',
   'Git',
+  'Heroku',
   'Jira',
   'Postman',
 ]
