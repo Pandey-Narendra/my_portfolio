@@ -70,7 +70,7 @@ const projects = [
     livePreview: 'https://pandey-narendra.github.io/TO-DO-Application/',
   },
   {
-    name: 'Authentication System',
+    name: 'Monolithic Authentication System',
     description: [
       `The application’s front-end is developed using React.js and the back-end is built on Laravel‘s MVC
       pattern, MySQL as a monolithic application which allows register, login and more to manage their profiles through a user-friendly interface.`,
