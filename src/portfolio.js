@@ -54,14 +54,14 @@ const projects = [
 	// if there are no projects, Projects section won't show up
 
 	{
-		name: 'Not Instragram',
+		name: 'Snapgram',
 		description: [
 			`Developed a fully functional application with features similar to Instagram, where users can create, update, delete, like, and save posts with proper authentication and more.
 			Used Appwrite for the backend and React.js, Tailwind CSS, and TypeScript for the frontend.`,
 		],
 		stack: ['Appwrite', 'React Js', 'TypeScript', 'Tailwind CSS'],
 		sourceCode: 'https://github.com/Pandey-Narendra/not_instragram',
-		livePreview: 'https://not-instragram.vercel.app/n',
+		livePreview: 'https://not-instragram.vercel.app/',
 	},
 
 	{
