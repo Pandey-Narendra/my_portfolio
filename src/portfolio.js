@@ -59,9 +59,9 @@ const projects = [
 			`Developed a fully functional application with features similar to Instagram, where users can create, update, delete, like, and save posts with proper authentication and more.
 			Used Appwrite for the backend and React.js, Tailwind CSS, and TypeScript for the frontend.`,
 		],
-		stack: ['Apprite', 'React Js', 'TypeScript', 'Tailwind CSS'],
+		stack: ['Appwrite', 'React Js', 'TypeScript', 'Tailwind CSS'],
 		sourceCode: 'https://github.com/Pandey-Narendra/not_instragram',
-		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
+		livePreview: 'https://not-instragram.vercel.app/n',
 	},
 
 	{
