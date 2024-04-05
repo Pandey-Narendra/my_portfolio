@@ -56,12 +56,23 @@ const projects = [
 	{
 		name: 'Snapgram',
 		description: [
-			`Developed a fully functional application with features similar to Instagram, where users can create, update, delete, like, and save posts with proper authentication and more.
-			Used Appwrite for the backend and React.js, Tailwind CSS, and TypeScript for the frontend.`,
+			`Developed a fully functional application with features similar to Instagram, where users can create, update, delete,
+			like, explore, search and save posts with proper authentication and more. Used Appwrite, React Query for back-end
+			and Shadcn UI, React Js for the front-end.`,
 		],
-		stack: ['Appwrite', 'React Js', 'TypeScript', 'Tailwind CSS'],
+		stack: ['Appwrite', 'React Query', 'Shadcn UI', 'React Js', 'TypeScript', 'Tailwind CSS'],
 		sourceCode: 'https://github.com/Pandey-Narendra/not_instragram',
 		livePreview: 'https://not-instragram.vercel.app/',
+	},
+
+	{
+		name: 'Figma Liveblocks',
+		description: [
+			`The project aims to develop a web application similar to Figma, a collaborative design tool, with its core functionalities. Additionally, the application will integrate Liveblocks to enable real-time collaboration among multiple users working simultaneously on the same design project.`,
+		],
+		stack: ['Liveblocks', 'Fabric Js', 'React Js', 'TypeScript', 'Tailwind CSS'],
+		sourceCode: 'https://github.com/Pandey-Narendra/figma_clone/',
+		livePreview: 'https://figma-liveblocks.vercel.app',
 	},
 
 	{
