@@ -68,9 +68,9 @@ const projects = [
 	{
 		name: 'Figma Liveblocks',
 		description: [
-			`The project aims to develop a web application similar to Figma, a collaborative design tool, with its core functionalities. Additionally, the application will integrate Liveblocks to enable real-time collaboration among multiple users working simultaneously on the same design project.`,
+			`Create a web application similar to Figma for collaborative design work. Utilize Liveblocks for real-time collaboration, Fabric.js for canvas interactions, Shadcn UI for UI components, Next.js for development efficiency, TypeScript for code quality, and Tailwind CSS for styling.`,
 		],
-		stack: ['Liveblocks', 'Fabric Js', 'React Js', 'TypeScript', 'Tailwind CSS'],
+		stack: ['Liveblocks', 'Fabric Js', 'Shadcn UI', 'Next Js', 'TypeScript', 'Tailwind CSS'],
 		sourceCode: 'https://github.com/Pandey-Narendra/figma_clone/',
 		livePreview: 'https://figma-liveblocks.vercel.app',
 	},
