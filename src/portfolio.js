@@ -8,7 +8,7 @@ const about = {
 	// all the properties are optional - can be left empty or deleted
 	name: 'Narendra Pandey',
 	role: 'Developer and a Programmer',
-	description:`I am a seasoned Web Developer with over 2 years of professional experience. Specialize in developing, maintaining, and deploying websites for diverse clients.
+	description:`I'm a seasoned Web Developer with over 2 years of experience specializing in developing, maintaining, and deploying websites for diverse clients. My expertise lies in JavaScript, React JS, PHP, Laravel, WordPress, and MySQL. I'm proficient in project management, deployment, debugging, testing, and API integration.
 	`,
 	resume: 'https://drive.google.com/file/d/1hM3Id01Jqk5AwaWKRq8fEhDPyb7uqPVJ/view?usp=drive_link',
 	social: {
@@ -26,10 +26,13 @@ const experiences = [
 		duration: 'August 2022 - October 2023',
 		post: 'Web Developer',
 		description: [
-			`I’ve gained extensive experience in React JS, Laravel, WordPress, MySQL and more.`,
-			`I’ve been deeply involved in developing, maintaining, and deploying websites for diverse clients.`,
-			`Prioritized project clearity by meeting clients, writing detailed docs, and keeping things organized in Jira.`,
-			`Additionally, integrating React.js within Laravel and Gatsby Js with WordPress (Headless CMS).`,
+			`Managed website development, maintenance, and deployment, optimizing project management through client
+			meetings, documentation, and streamlined Jira use. Achieved 20% higher client satisfaction, 30% faster
+			project completion, and 20% reduced turnaround time.`,
+			`Optimized code and queries for 30+ websites, improving page load times by 25%. Reduced development time
+			by 20% through code reusability, ensuring project consistency.`,
+			`Built dynamic web applications using UI componets, Hooks, Axios, Redux, State Management, Router and more.`,
+			`Leveraged Laravel’s MVC pattern, Eloquent ORM, Middlewares, Mail, Cron Jobs, validations, Auth, Rest APIs.`,
 		],
 		stack: ['React','Laravel', 'PHP','Wordpress', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Git', 'Jira'],
 		// sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',
@@ -41,7 +44,9 @@ const experiences = [
 		duration: 'January 2022 – May 2022',
 		post: 'Web Developer',
 		description: [
-			`Worked on the GEC Dahod website, concentrating on understanding its flow and developing dynamic modules while ensuring the maintenance of dependencies by following directives from the HOD and internal mentor..`,
+			`Developed dynamic modules for GEC Dahod website, increasing user engagement by 20%.`,
+			`Implemented HTML, CSS, Bootstrap, JavaScript, and jQuery for front-end development.`,
+			`Used PHP and MySQL for back-end development, reducing database query response times by 25%.`
 		],
 		stack: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'PHP', 'MySQL'],
 		// sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',
@@ -56,9 +61,9 @@ const projects = [
 	{
 		name: 'Snapgram',
 		description: [
-			`Developed a fully functional application with features similar to Instagram, where users can create, update, delete,
-			like, explore, search and save posts with proper authentication and more. Used Appwrite, React Query for back-end
-			and Shadcn UI, React Js for the front-end.`,
+			`Developed an Instagram-like app using Appwrite for the back-end and Shadcn for UI components.`,
+			`Implemented functionalities including explore, save, search posts, edit posts and profiles, like, and tags, utilizing
+			React Query for data fetching.`,
 		],
 		stack: ['Appwrite', 'React Query', 'Shadcn UI', 'React Js', 'TypeScript', 'Tailwind CSS'],
 		sourceCode: 'https://github.com/Pandey-Narendra/not_instragram',
@@ -68,13 +73,34 @@ const projects = [
 	{
 		name: 'Figma Liveblocks',
 		description: [
-			`Create a web application similar to Figma for collaborative design work. Utilize Liveblocks for real-time collaboration, Fabric.js for canvas interactions, Shadcn UI for UI components, Next.js for development efficiency, TypeScript for code quality, and Tailwind CSS for styling.`,
+			`Designed a Figma-like collaborative web app using Liveblocks for real-time collaboration with data storage,
+			Fabric.js for the canvas, and Shadcn for UI components.`,
+			`Enabled multiple users to interact, create designs, and use live chat and reaction functionality.`,
 		],
 		stack: ['Liveblocks', 'Fabric Js', 'Shadcn UI', 'Next Js', 'TypeScript', 'Tailwind CSS'],
 		sourceCode: 'https://github.com/Pandey-Narendra/figma_clone/',
 		livePreview: 'https://figma-liveblocks.vercel.app',
 	},
-
+	{
+		name: 'API Testing',
+		description: [
+			`Created a Laravel-based RESTful API with integrated Swagger UI documentation. Includes intuitive API
+			documentation and Postman testing for efficient endpoint validation and enhancement.`,
+		],
+		stack: ['RESTful API', 'Laravel', 'Swagger UI', 'Postman'],
+		sourceCode: 'https://github.com/Pandey-Narendra/Laravel_API_Swagger_UI',
+		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
+	},
+	{
+		name: 'Monolithic Authentication System',
+		description: [
+			`Built a monolithic app using Laravel’s MVC pattern and MySQL for the back-end, and React JS for the
+			front-end, featuring separate authenticated user and admin panels with profile management.`,
+		],
+		stack: ['React Js', 'Laravel', 'Breeze', 'Inertia Js', 'MySQL'],
+		sourceCode: 'https://github.com/Pandey-Narendra/laravel_React_Inertia',
+		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
+	},
 	{
 		name: 'Expense Tracker',
 		description: [
@@ -106,18 +132,6 @@ const projects = [
 		sourceCode: 'https://github.com/Pandey-Narendra/TO-DO-Application',
 		livePreview: 'https://pandey-narendra.github.io/TO-DO-Application/',
 	},
-
-	{
-		name: 'Monolithic Authentication System',
-		description: [
-			`The application’s front-end is developed using React.js and the back-end is built on Laravel‘s MVC
-			pattern, MySQL as a monolithic application which allows register, login and more to manage their profiles through a user-friendly interface.`,
-		],
-		stack: ['React Js', 'Laravel', 'Breeze', 'Inertia Js', 'MySQL'],
-		sourceCode: 'https://github.com/Pandey-Narendra/laravel_React_Inertia',
-		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
-	},
-
 	{
 		name: 'Realtime Chat Application',
 		description: [
@@ -126,18 +140,7 @@ const projects = [
 		stack: ['Laravel', 'Vue js', 'MySQL', 'WebSockets', 'Pusher', 'Bootstrap'],
 		sourceCode: 'https://github.com/Pandey-Narendra/Chat_Application',
 		// livePreview: 'https://pandey-narendra.github.io/TO-DO-Application/',
-	},
-
-	{
-		name: 'POSTMAN API Testing',
-		description: [
-			`The Authentication Validation system built using Laravel and tested using Postman. The system includes features such
-			as login, registration, change password, and forget password.`,
-		],
-		stack: ['Laravel', 'Postman'],
-		sourceCode: 'https://github.com/Pandey-Narendra/AuthenticateWithPostman',
-		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
-	},
+	}
 ];
 
 const skills = [
@@ -163,6 +166,7 @@ const skills = [
 	'Vercel',
 	'Jira',
 	'Postman',
+	'cPanel'
 ]
 
 const contact = {
