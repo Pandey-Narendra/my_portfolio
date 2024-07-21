@@ -9,7 +9,7 @@ const about = {
 	name: 'Narendra Pandey',
 	role: 'Developer and a Programmer',
 	description:`I'm a seasoned Web Developer with over 2 years of experience specializing in developing, maintaining, and deploying websites for diverse clients. Proficient in React JS, Laravel, WordPress, and MySQL, I optimize performance and streamline project management using Jira. My focus on advanced technologies ensures high-quality outcomes and reflects my dedication to continual learning and excellence in web development.`,
-	resume: 'https://drive.google.com/file/d/1hM3Id01Jqk5AwaWKRq8fEhDPyb7uqPVJ/view?usp=drive_link',
+	resume: 'https://bit.ly/3RXwFae',
 	social: {
 		linkedin: 'https://linkedin.com/in/pandey-narendra',
 		github: 'https://github.com/Pandey-Narendra',
