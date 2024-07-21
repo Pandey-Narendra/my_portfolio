@@ -8,8 +8,7 @@ const about = {
 	// all the properties are optional - can be left empty or deleted
 	name: 'Narendra Pandey',
 	role: 'Developer and a Programmer',
-	description:`I'm a seasoned Web Developer with over 2 years of experience specializing in developing, maintaining, and deploying websites for diverse clients. My expertise lies in JavaScript, React JS, PHP, Laravel, WordPress, and MySQL. I'm proficient in project management, deployment, debugging, testing, and API integration.
-	`,
+	description:`I'm a seasoned Web Developer with over 2 years of experience specializing in developing, maintaining, and deploying websites for diverse clients. Proficient in React JS, Laravel, WordPress, and MySQL, I optimize performance and streamline project management using Jira. My focus on advanced technologies ensures high-quality outcomes and reflects my dedication to continual learning and excellence in web development.`,
 	resume: 'https://drive.google.com/file/d/1hM3Id01Jqk5AwaWKRq8fEhDPyb7uqPVJ/view?usp=drive_link',
 	social: {
 		linkedin: 'https://linkedin.com/in/pandey-narendra',
@@ -26,13 +25,10 @@ const experiences = [
 		duration: 'August 2022 - October 2023',
 		post: 'Web Developer',
 		description: [
-			`Managed website development, maintenance, and deployment, optimizing project management through client
-			meetings, documentation, and streamlined Jira use. Achieved 20% higher client satisfaction, 30% faster
-			project completion, and 20% reduced turnaround time.`,
-			`Optimized code and queries for 30+ websites, improving page load times by 25%. Reduced development time
-			by 20% through code reusability, ensuring project consistency.`,
+			`Developed proficiency in React JS development, Laravel development, and WordPress development alongside proficient MySQL usage. Skilled in Project Management, Deployment, Debugging, and API integration.`,
+			`My role involved end-to-end website development, maintenance, and deployment for various clients, focusing on clear project communication via client meetings, detailed documentation, and efficient Jira management.`,
 			`Built dynamic web applications using UI componets, Hooks, Axios, Redux, State Management, Router and more.`,
-			`Leveraged Laravel’s MVC pattern, Eloquent ORM, Middlewares, Mail, Cron Jobs, validations, Auth, Rest APIs.`,
+			`Developed and maintained over 30 websites, optimizing code and database queries for enhanced performance. Implemented code reusability strategies to reduce development time and ensure consistency across projects.`,
 		],
 		stack: ['React','Laravel', 'PHP','Wordpress', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Git', 'Jira'],
 		// sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',
@@ -44,9 +40,9 @@ const experiences = [
 		duration: 'January 2022 – May 2022',
 		post: 'Web Developer',
 		description: [
-			`Developed dynamic modules for GEC Dahod website, increasing user engagement by 20%.`,
-			`Implemented HTML, CSS, Bootstrap, JavaScript, and jQuery for front-end development.`,
-			`Used PHP and MySQL for back-end development, reducing database query response times by 25%.`
+			`Contributed to the development and maintenance of the GEC Dahod website, implementing dynamic modules and ensuring adherence to project guidelines.`,
+			`Employed HTML, CSS, Bootstrap, JavaScript, and jQuery for front-end development, and PHP and MySQL for back-end functionality, following established coding standards.`,
+			`Collaborated with Head of Department (HOD) and internal mentors to understand project requirements and deliver solutions aligned with organizational goals.`
 		],
 		stack: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'PHP', 'MySQL'],
 		// sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',
@@ -82,13 +78,32 @@ const projects = [
 		livePreview: 'https://figma-liveblocks.vercel.app',
 	},
 	{
-		name: 'API Testing',
+		name: 'Management Panel',
 		description: [
-			`Created a Laravel-based RESTful API with integrated Swagger UI documentation. Includes intuitive API
-			documentation and Postman testing for efficient endpoint validation and enhancement.`,
+			`Built an Admin, User and product management. Enabled role-based access control and RESTful APIs,
+			documented with Swagger and tested using Postman. REST and non-REST API access for flexibility.`,
+		],
+		stack: ['Laravel', 'Bootstrap', 'Swagger UI', 'Postman', 'MySQL', 'API Documentation'],
+		sourceCode: 'https://github.com/Pandey-Narendra/admin_panel',
+		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
+	},
+	{
+		name: 'Shop Mart',
+		description: [
+			`Facilitates a seamless shopping experience for users and robust management for admins. Key features encompass real-time cart updates, checkout processing, invoice generation, and email notifications with the invoice.`,
+		],
+		stack: [' Bootstrap', 'Laravel', 'MySQL', ' jQuery', 'AJAX', 'Payment Systems', 'Mai'],
+		sourceCode: 'https://github.com/Pandey-Narendra/task',
+		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
+	},
+	{
+		name: 'Blog API',
+		description: [
+			`Crafted a robust RESTful API for user authentication and blog post management, including efficient CRUD
+			operations for users and management of categories, tags, and comments within the API infrastructure.`,
 		],
 		stack: ['RESTful API', 'Laravel', 'Swagger UI', 'Postman'],
-		sourceCode: 'https://github.com/Pandey-Narendra/Laravel_API_Swagger_UI',
+		sourceCode: 'https://github.com/Pandey-Narendra/blog_Management_Restapi',
 		// livePreview: 'https://pandey-narendra.github.io/Tic_Tac_toe/',
 	},
 	{
