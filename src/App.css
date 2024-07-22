@@ -16,11 +16,11 @@
 
 .light {
   --clr-bg: #cdcbd5;
-  --clr-bg-alt: #dd898921;
-  --clr-fg: #000000;
-  --clr-fg-alt: #000000;
-  --clr-primary: #0272c9;
-  --shadow: #000000 0px 7px 29px 0px;
+  --clr-bg-alt: rgb(219 144 130 / 38%);
+  --clr-fg: #000;
+  --clr-fg-alt: #07338b;
+  --clr-primary: #000000;
+  --shadow: #ffffff 0px 7px 29px 0px;
 }
 
 .dark {
