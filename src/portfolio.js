@@ -27,7 +27,6 @@ const experiences = [
 		description: [
 			`Developed proficiency in React JS development, Laravel development, and WordPress development alongside proficient MySQL usage. Skilled in Project Management, Deployment, Debugging, and API integration.`,
 			`My role involved end-to-end website development, maintenance, and deployment for various clients, focusing on clear project communication via client meetings, detailed documentation, and efficient Jira management.`,
-			`Built dynamic web applications using UI componets, Hooks, Axios, Redux, State Management, Router and more.`,
 			`Developed and maintained over 30 websites, optimizing code and database queries for enhanced performance. Implemented code reusability strategies to reduce development time and ensure consistency across projects.`,
 		],
 		stack: ['React','Laravel', 'PHP','Wordpress', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Git', 'Jira'],
