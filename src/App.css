@@ -20,7 +20,7 @@
   --clr-fg: #000;
   --clr-fg-alt: #07338b;
   --clr-primary: #000000;
-  --shadow: #ffffff 0px 7px 29px 0px;
+  --shadow: #00000061 0px 7px 29px 0px;;
 }
 
 .dark {
@@ -29,7 +29,7 @@
   --clr-fg: #fdfdffdb;
   --clr-fg-alt: #e1cb2d;
   --clr-primary: #0038ff;
-  --shadow: #d1d1f3 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --shadow: #ffffff1a 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 /* .dark {
