@@ -19,7 +19,19 @@ const about = {
 const experiences = [
 	// projects can be added and removed
 	// if there are no projects, Projects section won't show up
-	
+	{
+		name: 'Freelance Web Developer (Laravel & WordPress)',
+		duration: 'October 2023 - March 2024',
+		post: 'Part Time',
+		description: [
+			`Specialized in migrating custom designs into Laravel and WordPress applications using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS, or by integrating themes.`,
+			`Engineered functionalities, added libraries, and conducted thorough testing to ensure optimized, bug-free applications.`,
+			`Directed project flow, ensuring timely delivery and client satisfaction through effective communication and collaboration.`,
+		],
+		stack: ['Laravel', 'PHP','Wordpress', 'MySQL', 'jQuery', 'AJAX', 'Project Management', 'HTML', 'CSS', 'JavaScript', 'Git'],
+		// sourceCode: 'https://github.com/Pandey-Narendra/Tic_Tac_toe',
+		// livePreview: 'https://goldengatetechnolabs.com/',
+	},
 	{
 		name: 'Goldengate Technolabs',
 		duration: 'August 2022 - October 2023',
