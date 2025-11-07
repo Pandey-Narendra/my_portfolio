@@ -6,7 +6,7 @@ const header = {
 
 const about = {
 	// all the properties are optional - can be left empty or deleted
-	name: 'Narendra Pandey',
+	name: 'Narendra Pandey test',
 	role: 'Developer and a Programmer',
 	description:`I'm a seasoned Web Developer with over 2 years of experience specializing in developing, maintaining, and deploying websites for diverse clients. Proficient in React JS, Laravel, WordPress, and MySQL, I optimize performance and streamline project management using Jira. My focus on advanced technologies ensures high-quality outcomes and reflects my dedication to continual learning and excellence in web development.`,
 	resume: 'https://bit.ly/3RXwFae',
